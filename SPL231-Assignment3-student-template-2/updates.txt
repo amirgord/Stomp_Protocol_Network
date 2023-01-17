@@ -1,0 +1,35 @@
+
+updates:
+
+
+1. parser new function: build string of map
+
+2. protocol new function report - build frame
+
+    TODO
+    2.1 place events json file in the right place and try to send
+    2.2 make sure parse build properly
+    2.3 make sure server get the message
+    2.4 check if buffer big enough
+
+
+3. user new function: send 
+    
+    TODO
+    3.1 make sure send works
+
+4. handle summery: user.summarizeGame(),Game.summarizeGame()
+
+    TODO
+    4.1 make sure summarizeGame works
+    4.2 i think the best way is to change the events in game into vector<events>
+    would be much elegant but need some work 
+    it's needed becouse summery must be done according to the user how posted them
+    i used D.S solution, added to the events in game (vector<vector<string>>) another slot user
+    to save when reciving massage
+    4.3 user build full path - TODO
+    4.4 in game - maybe write directly to the file is more efficient
+
+5. new function update game added and finished
+
+    5.1 tests
