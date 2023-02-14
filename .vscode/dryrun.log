@@ -1,6 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/amir/Desktop/stomp_server-master'
-make: Leaving directory `/Users/amir/Desktop/stomp_server-master'
+make: Entering directory `/Users/amir/Desktop/StompProtocol/Stomp_Protocol_Network'
+make: Leaving directory `/Users/amir/Desktop/StompProtocol/Stomp_Protocol_Network'
  
 make: *** No targets specified and no makefile found.  Stop.
 
